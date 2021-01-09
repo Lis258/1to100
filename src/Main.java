@@ -9,8 +9,8 @@ public class Main {
         } else {
             bonus = 0;
         }
-        int totalBalance = balance + amount + bonus;
-        System.out.println(totalBalance);
+        int total = balance + amount + bonus;
+        System.out.println(total);
     }
 
 }
